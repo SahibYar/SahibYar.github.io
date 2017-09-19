@@ -6,7 +6,7 @@ body {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27A822;
+  border-top: 3px solid #0080FF;
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -33,7 +33,7 @@ body {
   color: #6b6b6b;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #6b6b6b;
+  color: #0080FF;
 }
 .navbar-default .navbar-text {
   color: #6b6b6b;
@@ -42,14 +42,14 @@ body {
   color: #6b6b6b;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #6b6b6b;
+  color: #0080FF;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #6b6b6b;
+  color: #0167CC;
   background-color: #ffffff;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #6b6b6b;
+  color: #0167CC;
   background-color: #ffffff;
 }
 .navbar-default .navbar-toggle {
@@ -75,7 +75,7 @@ body {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #6b6b6b;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > A:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #6b6b6b;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
@@ -96,10 +96,10 @@ body {
   margin: 20px 0;
 }
 .container a {
-  color: #27A822;
+  color: #0080FF;
 }
 .container a:hover {
-  color: #267723;
+  color: #0167CC;
 }
 .img-responsive {
  display: block;
@@ -120,10 +120,10 @@ body {
   font-size: 15px;
 }
 .panel-default h4 a, h5 a {
-  color: #27A822;
+  color: #0080FF;
 }
 .panel-default h4 a:hover, h5 a:hover {
-  color: #267723;
+  color: #0167CC;
 }
 .panel{
   border-style: none;
@@ -174,7 +174,7 @@ body {
 	color: #6b6b6b;
 }
 div.footer{
-  border-bottom: 5px solid #27A822;;
+  border-bottom: 5px solid #0080FF;;
 }
 /* Set the fixed height of the footer here */
 /*.footer {
@@ -182,3 +182,15 @@ div.footer{
   padding-bottom: 15px;
   
 }*/
+a.icon-stackoverflow:hover  {color:#F48024;}
+a.icon-twitter:hover        {color:#00B6F1;}
+a.icon-facebook:hover   {color:#3B5998;}
+a.icon-google:hover     {color:#C20806;}
+a.icon-instagram:hover  {color:#8a3ab9;}
+a.icon-qoura:hover      {color:#AA2200;}
+a.icon-youtube:hover    {color:#C31A1E;}
+a.icon-pinterest:hover  {color:#C91517;}
+a.icon-github:hover     {color:#040204;}
+a.icon-skype:hover      {color:#12A5F4;}
+a.icon-linkedin:hover   {color:#04669A;}
+a.icon-dialer:hover     {color:#25A011;}
