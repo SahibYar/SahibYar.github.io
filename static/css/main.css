@@ -89,7 +89,7 @@ body {
 
 .container {
   width: auto;
-  max-width: 800px;
+  max-width: 1000px;
   text-align: center;
 }
 .container .text-muted {
@@ -106,6 +106,16 @@ body {
  height: auto;
  max-width: 100%;
 }
+.me {
+  width: 150px;
+  height: 150px;
+  border:2px solid #0080FF;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  margin-bottom: 20px;
+}
+
 .panel-default h4 {
   text-align: left;
   line-height: 24px;
